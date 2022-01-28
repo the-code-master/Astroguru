@@ -1,0 +1,109 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://wallpaperbat.com/img/154799-astrology-wallpaper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+section{
+    position: absolute;
+    background-image: url(https://media.istockphoto.com/photos/digital-eye-wave-lines-stock-background-stock-video-picture-id1226241649?b=1&k=20&m=1226241649&s=170667a&w=0&h=lXhD5bdn_YT50-ItctUnqB2WiGZ8Jye1GZHjvDsb2Xo=);
+    background-size: cover;
+}
+.container{
+    width: 380px;
+    background:rgb(137, 169, 179) ;
+    box-shadow: 0 0 8px rgba(250, 250, 250, 0.6);
+    opacity: 0.8;
+}
+.container form{
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+}
+form h1{
+    padding: 10px 0;
+}
+form .id{
+    position: relative;
+}
+.id i{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+form input{
+    width: 100%;
+    height: 50px;
+    margin: 4px 0;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717;
+    padding: 0 15px;
+    padding-right: 45px;
+    font-size: 20px;
+
+}
+form textarea{
+    color: #ece8e8;
+    padding: 5px 10px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #111111;
+    font-size: 20px;
+    resize: none;
+    width: 100%;
+    margin: 4px 0 ;
+
+}
+
+form button{
+    margin-top: 5px;
+    border: none;
+    background: #ffffff;
+    color: #222;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+form input:focus, 
+form textarea:focus{
+    border: 2px solid #00fff0;
+    color: #00fff0;
+    transition: all 0.3s ease;
+
+}
+form input:focus::placeholder, 
+form textarea:focus::placeholder{
+    padding-left: 4px;
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+
+form input:focus + i{
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+form button:focus{
+    padding-left: 4px;
+    border: 2px solid #00fff0;
+    color: #00fff0;
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,149 @@
+.main {
+    margin-left: 200px; 
+    font-size: 20px; 
+    padding: 0px 10px;
+  }
+  /* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 16px;}
+  }
+.head  .heading-section h1{
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+}
+.head .heading-section span{
+    color: #ff0000;
+}
+.head  .heading-section p{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+.circle{
+    width: 90px;
+    height: 90px;
+    margin: 10px auto;
+    background: rgb(255, 255, 255);
+    border: 0.5px double rgb(167, 165, 165);
+    border-radius: 20%;
+    position: relative;
+}
+    
+.wrapper .box h2{
+    font-size: 20px;
+    text-align: center;
+    color: #09ad87;
+}
+.wrapper .circle .radius h1{
+    color: salmon;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+.wrapper{
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    background: #cdd3d3 ;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.box{
+    border-radius: 35px;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    background: rgb(0, 0, 0);
+    margin: 10px;
+}
+.box h2{
+    padding-bottom:0px;
+    text-align: center;
+
+}
+@media screen and ( max-width:1200px){
+    .box{
+        width:40%
+    }
+}
+@media screen and ( max-width:600px){
+    .box{
+        width:40%
+    }
+}
+.client{
+    padding-top: 2%;
+    text-align: center;
+   
+}
+.client p{
+    font-size: 18px;
+}
+
+.client h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.client .opinion span{
+    color: #ff0000;
+}
+
+
+.square{
+  
+    margin-top: 3%;
+    height: 100px;
+    width: 600px;
+    border: 0.001px dotted rgb(12, 12, 12);
+    display: inline-block;
+    margin-left: 7%;
+}
+
+.square h2{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+
+@media screen and ( max-width:1200px){
+    .square{
+        width:40%
+    }
+}
+@media screen and ( max-width:600px){
+    .square{
+        width:30%
+    }
+}
+
+#feedback{
+    margin-top: 2%;
+    text-align: center;
+}
+button{
+    border: solid 0.5px; 
+    background: #38ebbe;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+button:hover{
+    background-color: blanchedalmond;
+    color: black;
+}

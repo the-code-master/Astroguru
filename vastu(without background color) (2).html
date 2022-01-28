@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Vastu-Sashtra</title>
+    <style>
+        body {
+            /* background-color: rgb(256, 176, 80); */
+            width: 100%;
+            margin: 0px;
+        }
+        .container{
+    margin-left: 91px;
+    margin-top: 0px;
+    overflow: auto;
+    margin-bottom: 31px;
+    margin-right: -4px;
+    /* background-color: whitesmoke; */
+
+   
+}
+.logo{
+    float:left;
+    width:30px;
+    padding: 44px 323px 0px 0px;
+}
+.logo img{
+    width:225px;
+    margin:-19px 69px;
+    height:60px;
+}
+.logo span{
+    position:absolute;
+    top: 66px;
+    left: 219px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.appoint{
+    width:910px;
+    position: relative;
+    top:21px;
+    right:-59px;
+}
+.contact{
+    float:left;
+    padding-right: 48px;
+    margin-top: 2px;
+
+}
+.style{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.1;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+.font{
+    font-size: 14px;
+}
+.contact a{
+    text-decoration: none;
+    
+}
+#link{
+    margin-top: -58px;
+    margin-left: -128px;
+    padding-top: 11px;
+    float: right;
+    margin-right: 32px;
+    position: relative;
+    right: -245px;
+    top: 4px;
+
+}
+
+
+.button a{
+    border-radius: 50px;
+    background: #37a4dd;
+    
+    color:whitesmoke;
+    float: left;
+    width: 253px;
+    height: 47px;
+    font-size: 16px;
+    
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align:center;
+    line-height: 50px;
+    
+    
+    
+}
+.button a:hover{
+    background-color:  #1c1d10;
+}
+#image{
+    position: relative;
+    top: -51px;
+    right: -542px;
+
+}
+.navbar{
+    width:66%;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-left: -3px;
+    
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color:whitesmoke;
+    text-align: center;
+    padding: 26px 20px 26px 20px;
+    display: inline-block;
+    color: #ffffff;
+    /* border-right: 1px solid rgba(243, 239, 239,6); */
+    transition: background-color 0.4s;
+}
+.headersection{
+    width: 100%;
+    background-color: #ff7e00;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+    
+}
+.navigation{
+    width:1170px;
+    margin-left: 179px;
+    flex-direction: column;
+    overflow: visible;
+    position: relative;
+
+}
+li a:hover{
+    background-color: #37a4dd;
+}
+a:active{
+    color: tomato;
+
+}
+input{
+    float: right;
+    margin-top: -61px;
+    margin-right: -275px;
+    width:210px;
+    border-radius: 20px;
+    padding: 2px 2px;
+    overflow: auto;
+}
+.contact1{
+    padding: 2px 35px;
+    margin-left: 45px;
+}
+.searchlogo{
+  float: right;
+  height: 16px;
+  width: 16px;
+  margin: -57px -301px;
+  color: whitesmoke;
+}
+.plus{
+  
+  height: 16px;
+  width: 16px;
+  position: relative;
+  right: -367px;
+  bottom: -35px;
+  border-radius: 10px;
+}
+.contact1 img{
+    height: 32px;
+    width: 32px;
+    margin: -35px -43px;
+}
+.contact2{
+    margin-left:32px ;
+}
+.navbar input{
+    border-color: transparent;
+}
+header{
+    background-image: url(https://webstrot.com/html/tm/astrologer/images/content/advert_bg.jpg);
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    top:-16px;
+   
+}
+header::before{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background: rgba(0,0,0,0.8);
+    content: "";
+}
+header div{
+    position: relative;
+    top: 44px;
+    left: 29px;
+    color: whitesmoke;
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 342px;
+    z-index: 0;
+    
+
+}
+.dropdown-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:191px;
+    display: none;
+    background-color: black;
+    padding:0px;
+    margin: 0px;
+   
+}
+.dropdown-content a{
+    text-align: center;
+    padding-right:0px;
+    width: 100%;
+
+}
+nav ul li:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-content li a:hover{
+    transform: scale(0.5);
+    background-color: transparent;
+    border-top: 1px solid red;
+}
+.dropdown-content li{
+    padding-left: 3px;
+    padding-right: 2px;
+    margin: 0px 17px 0px -15px;
+
+}
+.experts-talk{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #f5f4f4;
+    width:100%;
+    height: 30vh;
+    align-items: center;
+}
+.images-expert{
+    /* border:1px solid red; */
+    height: auto;
+    width: 600px;
+    ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 67px;
+}
+.images-expert .img1{
+    /* border: 1px solid rgb(51, 255, 0); */
+    border-radius: 50%;
+    height: 122px;
+  width: 129px;
+  padding: 15px;
+}
+.images-expert img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 4px 6px orange;
+}
+.images-expert img{
+    padding: 0px 0px;
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+    border :6px solid grey;
+}
+/* css for footer section starts */
+.footer-section{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #151515;
+
+}
+.footer-alignment{
+    width:353px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin:0px 30px;
+    
+}
+.footer-alignment input{
+    margin: 0px 82px -3px 0px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+  
+}
+.footer-alignment p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  color: #797979;
+
+}
+.footer-alignment h4{
+  font-size: 21px;
+  color: #ff7e00;
+  display: inline-block;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin:0px 0px 0px 0px;
+}
+.footer-alignment h3{
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.1;
+  font-weight: 400;
+
+}
+.footer-alignment button{
+    padding:2px 2px;
+    width: 50px;
+    text-align: center;
+    padding: 13px 14px;
+  width: 124px;
+  text-align: center;
+  margin-left: 98px;
+  border-radius: 50px;
+  background: #ff7e00;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+  position: relative;
+}
+.footer-alignment button:hover{
+  transform: scale(1.3);
+  box-shadow: 0px 0px 3px 4px grey;
+}
+.footer-alignment div{
+  background-color: transparent;
+  border:1px solid  #797979;
+  width: 307px;
+  padding:11px 2px 0px 2px;
+  margin-left: 36px;
+  
+}
+.footer-alignment div:hover{
+  border :1px solid  #ff7e00;
+}
+.footer-alignment div i{
+  position: relative;
+  top: -15px;
+  left: 135px;
+  color: #ff7e00;
+}
+.footer-alignment .fas{
+padding-left: 8px;
+}
+
+.footer1{
+    margin-top: 1px;
+}
+.footer1 img{
+  margin-top: 12px;
+}
+.footer-alignment span{
+  color: #ff7e00 ;
+}
+.footer-alignment ul li{
+  display: inline-block;
+  list-style: none;
+}
+.footer-alignment a{
+  text-decoration: none;
+  color:whitesmoke;
+  border-radius: 50%;
+  background-color:#797979 ;
+  padding: 6px 7px;
+  margin-right: 4px;
+}
+.footer-alignment a:hover{
+  background-color: #ff7e00;
+}
+.dropdown-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:204px;
+    display: none;
+    background-color: black;
+    padding:0px;
+    margin: 0px;
+   
+}
+.dropdown-content a{
+    text-align: center;
+    padding-right:0px;
+    width: 100%;
+
+}
+nav ul li:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-content li a:hover{
+    transform: scale(0.5);
+    background-color: transparent;
+    border-top: 1px solid red;
+}
+.dropdown-content li{
+    padding-left: 3px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+
+            <a href="#"><img src="astroguru2.png" alt="astro"></a>
+            <span>Astrology Center</span>
+        </div>
+        <div class="appoint">
+            <div class="contact1">
+                <div class="contact contact1">
+                    <img src="home1.png">
+                    <div class="style">Reach Us</div>
+                    <div class="font">601,Ram Nager Dewas</div>
+                </div>
+                <div class="contact contact2">
+                    <img src="phone1.png">
+                    <div class="style">Talk To Astrologer</div>
+                    <div class="font">+91-123456789</div>
+                </div>
+            </div>
+            <div class="contact" id="link">
+                <div class="button"><a href="#">APPOINTMENTS</a></div>
+            </div>
+            <div class="contact" id="image">
+                <a href="http://127.0.0.1:5502/file5.html#" target="_blank"><img
+                        src="https://webstrot.com/html/tm/astrologer/images/header/top_user.jpg"></a>
+            </div>
+            <img src="plus.jpeg" class="plus">
+        </div>
+    </div>
+
+    <div class="headersection">
+        <div class="navigation">
+
+            <nav class="navbar active">
+                <ul>
+                    <li><a href="file4.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">pages</a>
+                        <ul class="dropdown-content">
+                            <li><a class="menu-button" href="file8.html">Plam</a></li>
+                            <li><a class="menu-button" href="file10.html">Tarot</a></li>
+                            <li><a class="menu-button" href="vastu(without background color) (2).html">Vastu-Sashtra</a></li>
+                            <li><a class="menu-button" href="crystal(without background color) (2).html">Crystals</a></li>
+                            <li> <a class="menu-button" href="chinesefinal.html">Chinese</a></li>
+                            <li> <a class="menu-button" href="ariesfinal.html">Aries</a></li>
+                            <li><a class="menu-button" href="Kundli_dosh.html">Kundali-Dosh</a></li>
+                            <li><a class="menu-button" href="Numerology.html">Numerology</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <img src="search1.png" class="searchlogo">
+                <input type="text" name="search" placeholder="Search..." id="search">
+
+            </nav>
+        </div>
+
+    </div>
+
+    <header>
+        <div>
+            VASTU-SASHTRA
+        </div>
+    </header>
+
+    <div>
+        <h1
+            style="text-align: center;font-size: 100px;font-family: 'Courier New', Courier, monospace;background-color: white;margin-right: 250px;margin-left: 250px;">
+            VASTU SHASTRA</h1>
+        <p style="text-align: center;"><img
+                src="https://akm-img-a-in.tosshub.com/aajtak/images/story/202101/whatsapp_image_2021-01-22_at_11.17.11_am-sixteen_nine.jpeg?size=948:533"
+                </p>
+    </div>
+    <div>
+        <p style="text-align:center;font-size: 25px;font-family: 'Courier New', Courier, monospace;font-weight: 600;">
+            Vastu Shastra is a science of keeping five elements of nature in their right positions and right
+            propositions.The five elements of nature are water,air,sky,fire and space.</p>
+    </div>
+    <div>
+        <p style="text-align: center;font-size: 25px;font-family: 'Courier New', Courier, monospace;font-weight: 600;">
+            Significance of Eight Directions: We have cordinal(North,South,East, and West) and four intercardinal
+            direction(North-west,North-east,South-west, and South-east).Each direction signifies an aspect of life and
+            is governed by various gods. While
+            North is the direction for wealth, south is for dharma.West and East are for prosperity and overall success
+        </p>
+    </div>
+    <div>
+        <h2
+            style="text-align: center;font-size: 45px;font-family: 'Courier New', Courier, monospace;background-color: white;margin-left: 250px;margin-right: 250px;">
+            HISTORY OF VASTU SHASTRA:</h2>
+        <img src="https://www.vastuplus.com/wp-content/uploads/2017/04/vastu-harappa-mohenjo-daro.jpg"
+            style="float:left;margin-right:10px;margin-bottom:5px;" ">
+            <p style=" text-align: center;font-size: 25px;font-family: 'Courier New' , Courier, monospace;font-weight:
+            600;display:inline; ">Vastu Shastra (Science of Architecture) are the textual part of vastu vidya the broader knowledge about architecture and design theories from ancient India. Vastu shastra are stated by some to have roots in pre-1st-century CE literature. Many
+                Agamas,Puranas and Hindu scriptures include chapters on architecture of temples, homes,villages,towns,fortifications,streets,shop layout, public wells, public bathing, public halls, gardens, river fronts among other things. In some cases,
+                the manuscripts are partially lost, some are avilable only in Tibetan, Nepalese or south indian languages, while in other original Sanskrit manuscripts are available in different parts of india. Some treatises, or books with chappters
+                on Vastu Shastra include: Manasara, Brhat samhita(Chapters 53-58), Vastu sarvasva, Vastu vidhi, Vastu vidhi, Vastu lakshana, Vastu vichara, Rupa mandana, Mantra dipika, Tachchu shastra, Parsada kirtana, Nava shastra(36 books,most lost),Matsya
+                Purana(Chapters 252 through 270),and many more. </p>
+        </div>
+        <div>
+            <h2 style=" text-align: center;font-family: 'Courier New' , Courier, monospace;font-size:
+            45px;background-color: white;margin-right: 250px;margin-left: 250px; ">TIPS OF VASTU SHASTRA:</h2>
+            <p style=" text-align: center; "><img src="
+            https://d3cif2hu95s88v.cloudfront.net/blog/wp-content/uploads/2021/03/26051715/The-theory-behind-directions-in-Vastu-Shastra.jpg "style="
+            float:left;margin-bottom:5px;margin-right: 10px; "></p>
+            <p style=" font-family: 'Courier New' , Courier, monospace;text-align: center;font-size: 25px;font-weight:
+            600; ">As per Vastu tips for new home, the main entry point of your house should face the north, east, or northeast direction. It must be built in a manner that when you step out, you face the north, east, or northeast direction. Before buying or
+                building a house, make sure the plan focuses on these particular directions. The front or living room of your new home must be located in the east, north, or northeast, direction. Furthermore, the furniture in that room should be placed
+                in the west or southwest direction. Doing this will ensure that your home has no Vastu dosh. According to Saral Vastu, the kitchen must be built in the southeast course of the home. North, northeast or southwest of the house, must be avoided
+                when creating a kitchen. Appliances in the kitchen should also be in the southeast direction. Appropriate ventilation and adequate daylight are essential components. According to Vastu for home, all rooms in the house should get regular
+                sunlight and should have proper ventilation. Doing this will help the flow of energy and increase positivity. Vastu for home places significant attention on the colors with which we adorn our homes. Therefore, you should abstain from utilizing
+                dark colors. Opt for shades like white, yellow, pink, coral, green, orange, or blue to leverage positive vibes.
+            </p>
+        </div>
+        <div>
+            <h2 style=" text-align: center;font-family: 'Courier New' , Courier, monospace;font-size:
+            45px;background-color: white;margin-right: 250px;margin-left: 250px; ">SCIENTIFIC EXPLANATION OF VASTU SHASTRA:</h2>
+            <p style=" text-align: center; "><iframe width=" 560 " height=" 315 " src="
+            https://www.youtube.com/embed/u1uptyMioIA " title=" YouTube video player " frameborder=" 0 " allow="
+            accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe></p>
+        </div>
+        <div>
+            <h2 style=" text-align: center;font-family: 'Courier New' , Courier, monospace;font-size:
+            45px;background-color: white;margin-left: 250px;margin-right:250px; ">ELEMENTS OF VASTU SHASTRA:</h2>
+            <p style=" text-align: center; "><img src="
+            https://i0.wp.com/68.media.tumblr.com/efc2eae23d6b13c409d5152a46061db0/tumblr_inline_ol5wltoTyU1uralkc_540.jpg?w=640&ssl=1 "style="
+            float: left;margin-bottom:5px;margin-right:10px "></p>
+            <p style=" text-align: center;font-family: 'Courier New' , Courier, monospace;font-weight: 600;font-size:
+            25px; ">Vastu-Five Elements ( Pancha Bhoota or Pancha Maha-Bhoota ) of Vastu Shastra Fire (Agni – अग्नि ), Earth (Prithvi – पृथ्वी ), Water (Jal/Apas – जल ), Air (Vayu – वायु ), Space (Akash – आकाश).According to Vastu, (or Vaastu or vasthu) shastra,
+                there are five basic elements in the whole world/universe. They are the Earth, Water, Air, Fire (Heat & Light), and Sky(Cosmic). Vastu is a Cosmic Science of balancing these elements in the proper proportions for harmony. When these five
+                elements are in the proper place, they support the person to achieve greater success in life. Vasthu stands on Earth. Earth depends on water-water is balanced by Agni (Fire), Agni is controlled by air (either). Air movements are possible
+                in Akasha (sky). Similarly the Purusha – living beings. The body (earth) depends on the water. Contents in the body balanced by the Agni (fire). Agni-heat is controlled by the air. Breathing which is possible only if we are having space
+                (Aakash) inside the human body. The core concept of Vastu Shastra entails the five key elements: Water, fire, earth, wind, and space. Each element is associated with a specific direction and energy which serve as a guide to enhance the
+                flow of the energy and improve the balance of the five elements in the surrounding environment.</p>
+        </div>
+         <!-- footer-contact-section -->
+         <div class="experts-talk">
+            <h2>SPEAK TO OUR EXPERT !</h2>
+    
+            <div class="images-expert">
+                <div class="img1">
+                    <img src="nawed-astro1.jpeg" >
+                </div>
+                <div class="img1">
+                    <img src="profile pic.jpg">
+                </div>
+                <div class="img1">
+                    <img src="dhruv img.jpg">
+                </div>
+                <div class="img1">
+                    <img src="yana-img.jpg">
+                </div>
+            </div>
+        </div>
+    <div class="footer-section">
+        <div class="footer-alignment footer1">
+            <img src="https://webstrot.com/html/tm/astrologer/images/content/footer_logo.png">
+            <p>Astrology is a pseudoscience that claims to discern information about human affairs and terrestrial
+                events by studying the movements and relative positions of celestial objects.</p>
+            <h4>Read More<i class="fas fa-long-arrow-alt-right"></i></h4>
+            <ul>
+                <li>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-alignment footer2">
+            <h3>NEED OUR HELP</h3>
+            <p>Need help with designing your brand new website or you have any idea and thinking of getting it’s
+                branding done then get a FREE quote today.</p>
+            <button>FREE QUOTE</button>
+        </div>
+        <div class="footer-alignment">
+            <h3>CONTACT US TODAY</h3>
+            <P>Call Us <span>666 777 888 OR 111 222 333</span> Send an Email on <span>contact@example.com </span>Visit
+                Us 123 Fake Street-
+                London 12358
+                United Kingdom</P>
+            <div class="footer-input">
+                <input type="email" placeholder="E-mail">
+                <i class="far fa-envelope"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    </body>
+
+    </html>
